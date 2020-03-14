@@ -1,0 +1,69 @@
+/* element or tag selector */
+/* first tag, class and id */
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+
+    background-color: rgb(144, 226, 199);
+   
+    margin: 10px;
+}
+
+header{
+    background-color:rgba(200, 200, 200, 0.6);
+    position: fixed;
+    top: 0; 
+    width: 100%;
+}
+section{
+    margin-top: 100px;
+    padding: 5px 30px;
+    font-family: cursive;
+    font-size: medium;
+}
+article{
+    font-size: 15px;
+    text-align: justify;
+    line-height: 22px;
+}
+
+.title{
+    font-size: 23px;
+    font-weight: bold;
+    text-align: center;
+
+}
+.date{
+    font-style: italic;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+/* changing the general structure inline or block */
+nav>ul>li{
+    display: inline-block;
+    padding: 10px 3px;
+    font-size: 20px;
+}
+nav>ul>li>a{
+    text-decoration: none;
+}
+nav>ul>li>:hover{
+    background-color: #ffffff;
+}
+p{
+    float:right;
+}
+
+img{
+    width: 480px;
+    height: 480px;
+    border-radius: 100%;
+    float: right;
+    margin-right: 100px;
+}
+#clear{
+    clear: left;
+}
