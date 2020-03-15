@@ -36,6 +36,13 @@ article{
     text-align: center;
 
 }
+.u1{
+    float: left;
+}
+.u2{
+    float: right;
+    
+}
 .date{
     font-style: italic;
     font-size: 15px;
@@ -56,6 +63,7 @@ nav>ul>li>:hover{
 p{
     float:right;
 }
+
 
 img{
     width: 480px;
