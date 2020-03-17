@@ -1,14 +1,16 @@
 body{
-    background-color:gray;
+    background-color:rgb(214, 202, 202);
 }
 /* nav>ul>li{
     display: inline-block;
     padding: 10px 3px;
     font-size: 20px;
 }
+ */
 nav>ul>li>a{
     text-decoration: none;
-} */
+    
+} 
 
 .prev{
     float: left;
@@ -22,5 +24,4 @@ nav>ul>li{
     padding: 10px 3px;
     font-family: cursive;
     font-size: 20px;
-    font-weight: bolder;
 }

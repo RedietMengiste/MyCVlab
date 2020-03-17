@@ -1,3 +1,43 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  padding-top: 80px;
+  
+  background-color: #bdc3c7;
+ 
+  
+}
+section{
+  display: flex;
+}
+.section1{
+  display: flex;
+}
+.section2{
+  display: flex;
+}
+header{
+  background-color:rgba(200, 200, 200, 0.7);
+  position: fixed;
+  top: 0; 
+  left: 0;
+  text-align: center;
+  width: 100%;
+}
+nav>ul>li{
+  display: inline-block;
+  padding: 10px 3px;
+  font-size: 20px;
+}
+nav>ul>li>a{
+  text-decoration: none;
+}
+nav>ul>li>:hover{
+  color: #ffffff;
+}
+
 h1 {
     text-align: center;
   }
@@ -6,7 +46,7 @@ h1 {
     height: 100px;
   }
   table {
-    margin: 5px auto;
+    margin: 50px auto;
   }
   .vert {
     border-left: 2px solid black;
@@ -24,6 +64,290 @@ h1 {
     float: left;
 }
 .u2{
-    float: right;
-    
+    float: right;   
+}
+
+/* ............................Question 3.............................. */
+
+.German{
+  margin-left: 100px;
+  margin-top: 40px;
+}
+.black, .red, .yellow{
+  width:230px;
+  height:50px;
+}
+
+.black{
+  background-color:black;
+}
+
+.red{
+  background-color:red;
+}
+
+.yellow{
+  background-color:yellow;
+}
+
+/* ########################################################################################### */
+.arrow-up {
+  width: 0; 
+  height: 0; 
+  background-color: red;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-bottom: 20px solid black;
+}
+
+.arrow-down {
+  width: 0; 
+  height: 0; 
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  
+  border-top: 20px solid #f00;
+}
+
+/* ####################################################################################3 */
+.costarica{
+  margin-left: 100px;
+  margin-top: 40px;
+}
+.blue, .white, .red2{
+  width:200px;
+  height:50px;
+}
+
+.blue{
+  height: 22.5px;
+  background-color:blue;
+}
+
+.white{
+  height: 22.5px;
+  background-color:white;
+}
+
+.red2{
+  height: 60px;
+  background-color:red;
+}
+
+/* ################################################################################# */
+.Ethiopia{
+  margin-left: 100px;
+  margin-top: 40px;
+}
+.green3, .yellow3, .red3{
+  width:230px;
+  height:50px;
+}
+
+.green3{
+  background-color:green;
+}
+
+.yellow3{
+  background-color:yellow;
+}
+
+.red3{
+  background-color:red;
+}
+.emblem{
+  position: absolute;
+  left: 805px;
+  top: 193px;
+  background: none;
+}
+/* ###################################################################################################3 */
+#belgium{
+  margin-top: 40px;
+  margin-left: 100px;
+  background-image:-webkit-linear-gradient(90deg,#000 33%,#fae042 33%,#fae042 66%,#ed2939 66%);
+  background-image:-o-linear-gradient(90deg,#000 33%,#fae042 33%,#fae042 66%,#ed2939 66%);
+  background-image:-moz-linear-gradient(90deg,#000 33%,#fae042 33%,#fae042 66%,#ed2939 66%);
+  background-image:linear-gradient(90deg,#000 33%,#fae042 33%,#fae042 66%,#ed2939 66%);
+  width:173px;
+  height:150px;
+}
+/* 3################################################################################################3 */
+.uae{
+
+  display:flex;
+  flex-flow:column wrap;
+  width:175px;
+  height:150px;
+  margin-left: 100px;
+  margin-top: 40px;
+ 
+}
+
+.green4, .white4, .black4{
+  width:175px;
+  height:50px;
+}
+.red4 { 
+  background-color: red;
+}
+
+.green4 {
+  background-color: green;
+} 
+.white4 {
+  background-color: white;
+} 
+.black4 { 
+ background-color: black;
+}
+.col1{width:30%;height:100%;}
+.col2{width:100%;height:33.3%;}
+
+/* ################################################################################ */
+
+.Ghana{
+  margin-left: 100px;
+  margin-top: 40px;
+}
+.red5, .yellow5, .green5{
+  width:230px;
+  height:50px;
+}
+
+.green5{
+  background-color:green;
+}
+
+.yellow5{
+  background-color:yellow;
+}
+
+.red5{
+  background-color:red;
+}
+.emb{
+  position: absolute;
+  left: 135px;
+  top: 642px;
+  background: none;
+}
+
+/* ########################################################################################## */
+
+.Austria{
+  margin-left: 160px;
+  margin-top: 40px;
+}
+.red6, .white6, .red6{
+  width:200px;
+  height:50px;
+}
+
+.red6{
+  background-color:red;
+}
+
+.white6{
+  background-color:white;
+}
+
+/* ############################################################################################# */
+.Japan{
+  margin-left: 100px;
+  margin-top: 40px;
+}
+ .white7{
+   background-color: white;
+  width:230px;
+  height:150px;
+}
+.cir {
+  margin-top: -125px;
+  margin-left: 60px;
+  width: 100px;
+  height: 100px;
+  background: red;
+  border-radius: 50%
+}
+/* ###############################################################################################33 */
+.Denmark{
+  margin-left: 100px;
+  margin-top: 40px;
+}
+ .white7{
+   background-color: white;
+  width:230px;
+  height:150px;
+}
+
+.sq {
+  margin-top: -64px;
+  width: 63px;
+  height: 62.5px;
+  background: red;
+}
+.sq2 {
+  margin-top: -149px;
+  width: 63px;
+  height: 60px;
+  background: red;
+}
+.rec {
+  margin-top: -62px;
+  margin-left: 90px;
+  width: 140px;
+  height: 62.5px;
+  background: red;
+}
+.rec2 {
+  margin-top: -61px;
+  margin-left: 90px;
+  width: 140px;
+  height: 62.5px;
+  background: red;
+}
+/* #######################################################################################3 */
+.sudan{
+  margin-left: 100px;
+  margin-top: 40px;
+}
+.red8, .white8, .black8{
+  width:230px;
+  height:50px;
+}
+
+.red8{
+  background-color:red;
+}
+
+.white8{
+  background-color:white;
+}
+.black8{
+  background-color: black;
+}
+.tri {
+  margin-top: -150px;
+  width: 0;
+  height: 0;
+  border-top: 75px solid transparent;
+  border-left: 100px solid rgb(2, 105, 2);
+  border-bottom: 75px solid transparent;
+}
+/* ######################################################################################## */
+.korea{
+  margin-left: 100px;
+  margin-top: 40px;
+}
+ .white9{
+   background-color: white;
+  width:210px;
+  height:150px;
+}
+.embkor{
+  position: absolute;
+  left: 475px;
+  top: 632px;
+  background: none;
 }

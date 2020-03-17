@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 h3{
     text-transform: uppercase;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -6,9 +11,48 @@ h3{
     text-align: center;
     width: 80rem;
 }
-img{
+body{
+    padding-top: 80px;
+}
+/* img{
     float: left;
     margin: 1.2%;
     width: 30%;
+    padding-left: 5px;
+} */
+
+.images{
+    float: left;
+    width: 33.33%;
     padding: 5px;
+    /* margin-bottom: 33px; */
+   
+  }
+  
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+#copy{
+    text-align: center;
+}
+header{
+    background-color:rgba(200, 200, 200, 0.7);
+    position: fixed;
+    top: 0; 
+    left: 0;
+    text-align: center;
+    width: 100%;
+}
+nav>ul>li{
+    display: inline-block;
+    padding: 10px 3px;
+    font-size: 20px;
+}
+nav>ul>li>a{
+    text-decoration: none;
+}
+nav>ul>li>:hover{
+    color: #ffffff;
 }
