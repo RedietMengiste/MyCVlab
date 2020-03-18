@@ -16,53 +16,91 @@
                 <li><a href="contact.html">Contact</a></li>
                 <li><a href="gallery.html">Galley</a></li>
                 <li><a href="blog.html">Blog</a></li>
-                
-            </ul>
-            <ul class="u2">
                 <li><a href="../Myworks.html">My Works</a></li>
-                
-                
             </ul>
+            
         </nav>
     </header>
     <!-- create log -->
-
-    <div id = "content">
-        <section>
-            <p class="title">
-                my first post
-            </p>    
-            <article>
-                <h1>Responsiveness</h1>
-               <p>
-
-               </p>
-            </article>
-            <p class="date">march15,2020</p>
-        </section>
+<div class="boxb1">  
           
-        <!-- second post-->
-            <section>
+        <div class ="article1">
+        <h3>Does it matter to use relative size(%,em,rem) one styling the size of an element so that
+            the element is responsive ?<br> Why ? [write your argument] <br>
+            a. Hint : consider the browsers capability of providing zoom feature</h3><br>
 
-                <p  class="title">
-                    my second post
-                </p>    
-                <article>
-                    <h1>Default browser width</h1>
-                </article>
-                <p class="date">march15,2020</p> 
-            </section>
+        <p><img src="./assets/images/maxresdefault.jpg" alt="rem,em" style="height:170px;margin-right:15px;" class="b1pic">
+    I believe that using the relative length units would be more convienient rather than using absolute sizes for the reason 
+    to make the web design customed to responsiveness. Certainly using absolute sizes will force us to use page zoom.
+In most browsers the default width is 16px. And all font-sizes should scale accordingly.
+However, if the website explicitly sets font-sizes in pixels, a heading set at 30px will always be 30px.
+however setting font sizes in pixels doesn’t completely ruin accessibility. The user can still zoom in and out.
+The default browser font-size in percentage is obtained by setting the HTML font-size to 62.5%. 62.5% of 16px (typical default browser font-size) is 
+ 10px. That would still make 1.6rem = 16px. This now means that if the user’s default browser font-size is changed to,
+  for example, 20px, 1.6rem would now equal 20px.
+  A percentage value-65%, for example- works much like an em, in that it is relative to some other value. For this reason,
+   percentage values are another powerful tool for building responsive websites.
+Em's value is relative to the font size of the element’s parent. The relative nature of an em makes it an essential 
+for bulding responsive web designs.Meanwhile, a rem unit is relative to the root element.
 
-            <section>
-                <p  class="title">
-                    my third post
-                </p>    
-                <article>
-                    <h1>Specific changes in css</h1>
+Eventhough the possibility of page zooming is made available on the responsive browsers enabiling the 
+users to get a better text-size that is much more convienient. <br>
+<br>
+<h4 class="date">March 18, 2020</h4>
+ </p><br><br>
+        <h3>We said 16px is default browser width so what does it mean when we say 200px ? <br> How
+            does the browser interpret that ?</h3><br>
+<p><img src="./assets/images/maxresdefault.jpg" alt="rem,em" style="height:170px;margin-right:15px;" class="b1pic">
+    The standard Conversion formula is 16px = 100%, this is equal to 1em. This means that our default browser is set to 16pxs.
 
-                </article>
-                <p class="date">march15,2020</p>
-            </section>
-    </div>
+    Pixel is static, it is an absolute measurment.On the other hand percent and em are relative measurements. Percent depends on its parent font size and EM is relative to the current size of the element.
+    
+    The browser interprets units from the cascading stylesheets doing calculation based on this formula.
+    For example If you haven't set the font size anywhere on the page, then it is the browser default, which is often 16px.
+    
+    So, by default 1em = 16px, and 2em = 32px. If you set a font-size of 20px on the body element, then 1em = 20px and 2em = 40px. 
+    Note that the value 2 is essentially a multiplier of the current em size. If the font-size you want is 12px, then you should specify 0.75em 
+    (because 12/16 = 0.75). Similarly for 22px, specify 1.375em (22/16). <br>
+</p><br>
+<br>
+<h4 class="date">March 18, 2020</h4>
+            <br>
+
+            <h3>Explain in detail(in technical terms) the specific changes in css3</h3><br>
+<p><img src="./assets/images/cssnew.jpg" alt="rem,em" style="height:170px;margin-right:15px;" class="b1pic">
+    <strong> Box Shadow </strong><br>
+    One of the CSS3 new features is the box-shadow property that adds a shadow to an element. Instead of using multiple images around an item, this property lets you add shadow with a short line of code.
+    <br>
+   <strong> Opacity</strong> <br>
+    One of the CSS3 properties called opacity makes elements see-through or completely transparent.
+    For instance, you can apply opacity to images or other HTML elements. The transparency level depends on the indicated values.  
+   <br>
+    <strong> Rounded Corners</strong><br>
+Before the release of CSS3, developers had to write long code to produce rounded corners. Now, it is enough to apply the border-radius CSS3 property to HTML elements.
+<br> <strong>
+Attribute Selectors</strong><br>
+CSS3 also introduced new selectors in addition to the ones in CSS2. Instead of applying IDs or classes for styling, developers can select HTML elements according to their attributes.As a result, you do not have to create unique IDs only to apply CSS rules.<br>
+<strong>
+New Colors</strong><br>
+One of the CSS3 features is the addition of new colors:
+<ul>
+    <li>
+    RGBA
+    </li>
+    <li>
+    HSL
+    </li>
+    <li>
+    HSLA
+    </li>
+    <li>
+    Gradient Colors
+    </li>
+</ul>
+</p> <br> <br>
+<h4 class="date">March 18, 2020</h4>
+</div>
+</div>
+
 </body>
 </html>

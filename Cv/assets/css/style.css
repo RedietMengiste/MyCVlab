@@ -7,38 +7,61 @@
 }
 body{
     padding-top: 80px;
-    
-    background-color: white;
-   
-    
+    background-color: white; 
 }
 
 header{
-    background-color:rgba(200, 200, 200, 0.7);
+    background-color:gray;
     position: fixed;
     top: 0; 
     left: 0;
     text-align: center;
     width: 100%;
 }
+nav>ul>li{
+    display: inline-block;
+    padding: 10px 14px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+nav>ul>li>a{
+    text-decoration: none;
+}
+nav>ul>li>:hover{
+    color: #ffffff;
+}
+
 section{
     margin-top: 100px;
-    padding: 5px 30px;
     font-family: cursive;
     font-size: medium;
 }
-article{
+.new{
+    margin-top: 100px;
+    font-family: cursive;
+}
+.article1{
     font-size: 15px;
-    text-align: justify;
-    line-height: 22px;
+    line-height: 23px;
+    font-family: cursive;
+}
+.b1pic{
+    float: left;
 }
 
-.title{
+.title >p{
     font-size: 23px;
-    font-weight: bold;
+    
     text-align: center;
-
 }
+.date{
+    text-align: center;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+/* ############################################# contact>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 .text{
     font-family: cursive;
     align-content: center;
@@ -52,30 +75,15 @@ pre{
     
     margin-left: 470px;
 }
+.mypic :hover{
+opacity: 0.2;
+}
 .u1{
     float: left;
 }
-.u2{
-    float: right;
-    
-}
-.date{
-    font-style: italic;
-    font-size: 15px;
-    text-transform: uppercase;
-}
+
 /* changing the general structure inline or block */
-nav>ul>li{
-    display: inline-block;
-    padding: 10px 3px;
-    font-size: 20px;
-}
-nav>ul>li>a{
-    text-decoration: none;
-}
-nav>ul>li>:hover{
-    color: #ffffff;
-}
+
 p{
     float:right;
 }
@@ -178,7 +186,7 @@ input[type=text], select {
     padding-left: 100px;
     padding-top: 50px;
     float: left;
-    display: block;
+    display: inline;
     align-content: center;
     text-decoration: none;
     text-align:center;
@@ -192,25 +200,212 @@ input[type=text], select {
       font-family: cursive;
       font-size: 14px;
       align-content: center;
-
   }
-   
-#copy{
-       text-align: center;
-}
-   /* Index page............................... */
+
+
+   /* Index page..##############################################################............................. */
 .pic{
-    margin-left: 40px;
+    margin-left: 150px;
 }
 
-.mytext{
-    text-align: center;
-    border-bottom: solid;
-}
 .pic>p{
     text-align: justify;
     margin-left: 300px;
 }
-.lists>ul>li{
-    list-style-type: none;
+footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: gray;
+    text-align: center;
+ }
+.fot>ul>li{
+    display: inline-block;
+}
+.fot>ul>li :hover{
+    transform: scale(0.7);
+}
+
+h6{
+    text-align: center;
+    font-size: 14px;
+}
+.box{
+	width: 450px;
+	height: 200px;
+	border-top-right-radius:50px;
+	border-bottom-left-radius:50px;
+	
+	text-align: center;	
+	margin: auto;
+	margin:center;
+	
+	top: 35%;
+	left:55%;
+	transform: translate(-50%,-50%);
+    position: absolute;
+}
+
+.box h1{
+	color: #333333;
+	font-weight: lighter;
+	font-family: Century Gothic;
+	font-size: 34px;
+	font: lighter;
+	margin: 10px
+
+}
+.box h4{
+	color: #000;
+	font-weight: lighter;
+	font-family: cursive;
+	font: lighter;
+	margin: 30px
+}
+/* p{
+    font-family: cursive;
+    font-size: 18px;
+} */
+
+.h3s{
+    font-family: cursive;
+    font-size: 26px;
+    font-style: italic;
+    text-align: center;
+}
+
+.boximg{
+	width: 450px;
+	height: 200px;
+	border-top-right-radius:50px;
+	border-bottom-left-radius:50px;
+	
+	text-align: center;	
+	margin: auto;
+	margin:center;
+	color: gray;
+	top: 190%;
+	left:12%;
+	transform: translate(-50%,-50%);
+    position: absolute;
+}
+
+.boximg2{
+	width: 450px;
+	height: 200px;
+	border-top-right-radius:50px;
+	border-bottom-left-radius:50px;
+	
+	text-align: center;	
+	margin: auto;
+	margin:center;
+	color: gray;
+	top: 190%;
+	left:88%;
+	transform: translate(-50%,-50%);
+    position: absolute;
+}
+.boxjava{
+	width: 450px;
+	height: 200px;
+	border-top-right-radius:50px;
+	border-bottom-left-radius:50px;
+	
+	text-align: center;	
+	margin: auto;
+	margin:center;
+	color: gray;
+	top: 31%;
+	left:92%;
+	transform: translate(-50%,-50%);
+    position: absolute;
+}
+.boxpython{
+	width: 450px;
+	height: 200px;
+	border-top-right-radius:50px;
+	border-bottom-left-radius:50px;
+	
+	text-align: center;	
+	margin: auto;
+	margin:center;
+	color: gray;
+	top: 68%;
+	left:85%;
+	transform: translate(-50%,-50%);
+    position: absolute;
+}
+
+.boxcss{
+	width: 450px;
+	height: 200px;
+	border-top-right-radius:50px;
+	border-bottom-left-radius:50px;
+	
+	text-align: center;	
+	margin: auto;
+	margin:center;
+	color: gray;
+	top: 92%;
+	left:91%;
+	transform: translate(-50%,-50%);
+    position: absolute;
+}
+.boxcplus{
+	width: 450px;
+	height: 200px;
+	border-top-right-radius:50px;
+	border-bottom-left-radius:50px;
+	
+	text-align: center;	
+	margin: auto;
+	margin:center;
+	color: gray;
+	top: 114%;
+	left:17%;
+	transform: translate(-50%,-50%);
+    position: absolute;
+}
+.boxreact{
+	width: 450px;
+	height: 200px;
+	border-top-right-radius:50px;
+	border-bottom-left-radius:50px;
+	
+	text-align: center;	
+	margin: auto;
+	margin:center;
+	color: gray;
+	top: 144%;
+	left:8%;
+	transform: translate(-50%,-50%);
+    position: absolute;
+}
+.boxflut{
+	width: 450px;
+	height: 200px;
+	border-top-right-radius:50px;
+	border-bottom-left-radius:50px;
+	
+	text-align: center;	
+	margin: auto;
+	margin:center;
+	color: gray;
+	top: 95%;
+	left:6%;
+	transform: translate(-50%,-50%);
+    position: absolute;
+}
+/* #####################################blog############################################ */
+.boxb1{
+	width: 90%;
+	text-align: center;	
+	margin: auto;
+	margin:center;
+	top: 125%;
+	left:50%;
+	transform: translate(-50%,-50%);
+    position: absolute;
+    opacity: 1;	
 }

@@ -1,5 +1,21 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
 body{
-    background-color:rgb(214, 202, 202);
+    background-color:rgb(255, 255, 255);
+}
+.top{
+    background-color:gray;
+    position: fixed;
+    top: 0; 
+    left: 0;
+    width: 100%;
+}
+.top > h3{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
 }
 /* nav>ul>li{
     display: inline-block;
@@ -12,16 +28,133 @@ nav>ul>li>a{
     
 } 
 
-.prev{
+
+.container {
     float: left;
-}
-.new{
+    position: relative;
+   
+  }
+  
+  .image {
+    opacity: 1;
+    display: block;
+    height: auto;
+    transition: .5s ease;
+  backface-visibility: hidden;
+  }
+
+  .container li:hover{
+    background-color: transparent;
+    transform: scale(1.1);
     
-    float: right;
 }
+  
+  .container:hover .middle {
+    opacity: 1;
+  }
+
 nav>ul>li{
     display: block;
     padding: 10px 3px;
     font-family: cursive;
     font-size: 20px;
+}
+
+.ques> p{
+    margin: 2em;
+    padding: 1em 7em;
+    border-top: 2px solid black;
+}
+h2{
+    text-transform: uppercase;
+    text-align: center;
+    margin: 1em;
+    color: wheat;
+}
+.ques ul{
+    text-align: center;
+}
+.ques  ul li{
+    display: block;
+    margin-left: 60%;
+    max-width: 25%;
+    padding: 1em 1em;
+}
+.ques ul li a{
+    color: rgb(90, 90, 90);
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 5%;
+    text-decoration: none;
+}
+.ques  ul li p{
+    margin-top: .5em;
+    text-transform: initial;
+    color: white;
+    font-size: smaller;
+    font-weight: normal;
+}
+
+.ques  ul li:hover {
+    background-color: rgb(73, 72, 72);
+    border-radius: 1em;
+    transition: .6s;
+}
+.mywork{
+    width: 200px;
+    height: 80px;
+	text-align: center;	
+	margin: auto;
+    margin:center;
+    left: 77px;
+    bottom: 0;
+    background-color: grey;
+	
+	transform: translate(-50%,-50%);
+    
+margin-top: 10%; 
+background-color: gray;
+position:relative;
+animation-name: example;
+
+animation-duration: 6s;
+animation-iteration-count: 2;
+animation-direction: alternate-reverse; 
+    
+}
+@keyframes example {
+    from {top: 0px;}
+  to {top: 200px; background-color: rgb(238, 113, 255);}
+    0%   {background-color:#e0b0ff; left:-250px; top:0px;}
+    25%  {background-color:rgb(225, 128, 255); left:200px; top:0px;}
+    50%  {background-color:rgb(115, 152, 255); left:200px; top:400px;}
+    75%  {background-color:rgb(143, 236, 143); left:-250px; top:400px;}
+    100% {background-color:#e0b0ff; left:-250px; top:0px;}
+  }
+  .mywork>h1{
+      text-align: center;
+  }
+
+
+ footer {
+    /* position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: gray; */
+    text-align: center;
+ } 
+ h6{
+    margin-left: 200px;
+    font-size: 14px;
+}
+.fot>ul>li{
+    display: inline-block;
+    margin-top: 8em;
+    padding: 10px 14px;
+    left: 90px;
+}
+.fot>ul>li :hover{
+    transform: scale(0.7);
 }
