@@ -50,17 +50,16 @@ users to get a better text-size that is much more convienient. <br>
  </p><br><br>
         <h3>We said 16px is default browser width so what does it mean when we say 200px ? <br> How
             does the browser interpret that ?</h3><br>
-<p><img src="./assets/images/maxresdefault.jpg" alt="rem,em" style="height:170px;margin-right:15px;" class="b1pic">
-    The standard Conversion formula is 16px = 100%, this is equal to 1em. This means that our default browser is set to 16pxs.
-
-    Pixel is static, it is an absolute measurment.On the other hand percent and em are relative measurements. Percent depends on its parent font size and EM is relative to the current size of the element.
+<p><img src="./assets/images/fonts-sizes-rem-pixels.png" alt="rem,em" style="height:170px;margin-right:15px;" class="b1pic">
+    Using the various units of conversion, the default browser's font size is 16px equal with 100% similarly equal to 1 rem. This means that our default browser is set to 16pxs.
+    Since percent and rem are relative measurements they depend on whether the size of the root element or the size of the current element.
     
-    The browser interprets units from the cascading stylesheets doing calculation based on this formula.
-    For example If you haven't set the font size anywhere on the page, then it is the browser default, which is often 16px.
-    
-    So, by default 1em = 16px, and 2em = 32px. If you set a font-size of 20px on the body element, then 1em = 20px and 2em = 40px. 
-    Note that the value 2 is essentially a multiplier of the current em size. If the font-size you want is 12px, then you should specify 0.75em 
-    (because 12/16 = 0.75). Similarly for 22px, specify 1.375em (22/16). <br>
+    The browser interprets units from the cascading stylesheets relative to the predefined sizes using some calculations.
+    For instance, if the font size is not explicitly given, the browser takes its default size , which is often 16px.
+    By default 1rem = 16px. If the size is set to 200px , 1px is equal to 0.005 rem in this case, but this will be hard for calculation.
+    This can be computed using percentage, ie. 16px = 100% =1 rem. Setting the font size to 1250% , for the reason that 1250% of 16 px is 200px,
+    in our given case 1 rem = 200px.
+    <br>
 </p><br>
 <br>
 <h4 class="date">March 18, 2020</h4>

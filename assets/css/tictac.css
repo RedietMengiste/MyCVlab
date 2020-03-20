@@ -93,24 +93,7 @@ h1 {
   background-color:yellow;
 }
 
-/* ########################################################################################### */
-.arrow-up {
-  width: 0; 
-  height: 0; 
-  background-color: red;
-  border-left: 20px solid transparent;
-  border-right: 20px solid transparent;
-  border-bottom: 20px solid black;
-}
 
-.arrow-down {
-  width: 0; 
-  height: 0; 
-  border-left: 20px solid transparent;
-  border-right: 20px solid transparent;
-  
-  border-top: 20px solid #f00;
-}
 
 /* ####################################################################################3 */
 .costarica{
@@ -461,3 +444,54 @@ h1 {
   top: 890px;
   background: none;
 }
+
+/* ################################################################################ */
+.cote{
+
+  display:flex;
+  flex-flow:column wrap;
+  width:200px;
+  height:150px;
+  margin-left: 100px;
+  margin-top: 40px;
+ 
+}
+.or15 { 
+  background-color: orange;
+}
+
+.white15 {
+  background-color: white;
+} 
+.green15 {
+  background-color: green;
+} 
+
+.col4{width:33.3%;height:100%;}
+.col5{width:33.3%;height:100%;}
+.col6{width:33.3%;height:100%;}
+/* ################################################################################# */
+.france{
+
+  display:flex;
+  flex-flow:column wrap;
+  width:230px;
+  height:150px;
+  margin-left: 100px;
+  margin-top: 40px;
+ 
+}
+.blue16 { 
+  background-color: blue;
+}
+
+.white16 {
+  background-color: white;
+} 
+.red16 {
+  background-color: red;
+} 
+
+.col7{width:33.3%;height:100%;}
+.col8{width:33.3%;height:100%;}
+.col9{width:33.3%;height:100%;}
